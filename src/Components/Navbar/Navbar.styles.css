@@ -1,0 +1,17 @@
+.navStyles {
+    background: linear-gradient(to bottom, #333399 0%, #33ccff 100%);
+    padding: 1rem;
+    font-weight: 900;
+}
+
+.navStyles ul{
+    display: flex;
+    list-style: none; 
+    justify-content: space-around;
+
+}
+
+.navStyles a {
+    text-decoration: none;
+    color: white;
+}
