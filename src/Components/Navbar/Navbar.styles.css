@@ -1,7 +1,23 @@
+* {
+    color: white;
+}
+input, button, i {
+    display: block;
+}
+
+h1, input {
+    width: 30%;
+}
+
+ul {
+    width: 40%;
+}
+
 .navStyles {
     background: linear-gradient(to bottom, #333399 0%, #33ccff 100%);
     padding: 1rem;
     font-weight: 900;
+    display: flex;
 }
 
 .navStyles ul{
@@ -13,5 +29,5 @@
 
 .navStyles a {
     text-decoration: none;
-    color: white;
+    
 }
