@@ -5,5 +5,28 @@ footer {
     padding-bottom: 10px;
     background-color: #333399;
     border-top: 0.8px solid white;
-    text-align: center;
+   text-align: center;
+    
+  }
+
+  .flexFooter {
+    display: flex; 
+    justify-content: space-around;
+   
+  }
+  
+  .containerFooterOne,
+  .containerFooterTwo,
+  .containerFooterThree {
+    width: 15%;
+  }
+
+  ul {
+    list-style: none;
+    margin: auto;
+    
+  }
+
+  li {
+    margin-left: -40px;
   }

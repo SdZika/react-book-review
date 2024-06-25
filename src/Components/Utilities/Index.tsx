@@ -55,6 +55,7 @@ const bookList = books.map((book) => (
       <li><img src={book.image} alt={book.title} /></li>
       <li>{book.title}</li>
       <li>{book.author}</li>
+      <li><button>Add to Favorites</button></li>
     </ul>
   ));
 

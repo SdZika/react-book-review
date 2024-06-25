@@ -3,6 +3,7 @@
 }
 input, button, i {
     display: block;
+    border: none;
 }
 
 h1, input {
@@ -16,7 +17,7 @@ ul {
 .navStyles {
     background: linear-gradient(to bottom, #333399 0%, #33ccff 100%);
     padding: 1rem;
-    font-weight: 900;
+    font-weight: 500;
     display: flex;
 }
 
